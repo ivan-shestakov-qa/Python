@@ -56,3 +56,15 @@ family.add("Cat-Niusha")
 family.add("Cat-Plathon")
 print(type(family))
 print(family)
+
+# 8) Создать переменную типа Frozen set
+address = frozenset(["56", "Gagarin street", "Mogilev", "Belarus"]) # Выявлено что тип внутренних скобок не важен
+print(type(address))
+print(str(len(address)) + " objects per line")
+print(address)
+
+# 9) Создать переменную типа Dict
+names = {"Vanya":37, "Elena":39, "Viktor":20, "Dariya":17}
+print(type(names))
+
+print(names)
