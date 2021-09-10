@@ -64,7 +64,18 @@ print(str(len(address)) + " objects per line")
 print(address)
 
 # 9) Создать переменную типа Dict
-names = {"Vanya":37, "Elena":39, "Viktor":20, "Dariya":17}
+names = dict(Vanya=37, Elena=39, Viktor=20, Dariya=17)
 print(type(names))
 
 print(names)
+
+# 10) Зоздать 2 переменные Integer,
+#     выполнить вычетание,умножение, деление без остатка,деление с присвоением.
+#     Вывести вконсоль.
+a = 19
+b = 5
+c = a - b
+d = a * b
+e = a // b
+f = a % b
+print(c, d, e, f)
