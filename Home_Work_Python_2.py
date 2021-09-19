@@ -1,7 +1,7 @@
 import random
 # 1) Создать 2 переменных типа String с разными значениями
-Word = "Hello Word"
-word = "hello word"
+Word = "Hello World"
+word = "hello world"
 
 # 2) 2) Создать 4 переменных типа Integer с разными значениями
 my_year = 1983
